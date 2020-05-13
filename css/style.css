@@ -10,9 +10,6 @@
 
 .container-header.top nav{
   position: relative;
-
-
-  /* DEBUG:  */
   height: 70px;
 }
 
@@ -63,7 +60,7 @@
 }
 
 .container-header.top nav > img{
-  width: 10%;
+  width: 105px;
   position: absolute;
   left:0;
   top:50%;
@@ -85,7 +82,7 @@
   width: 100%;
   background-image: url('../img/fluentify-jumbo.png');
   background-position: 106% 100%;
-  background-size: 50%;
+  background-size: 650px;
   background-repeat: no-repeat;
   background-color: #0c325a;
   position: relative;
@@ -115,7 +112,8 @@
   border-radius: 4px;
 }
 
-#ul2 button{
+
+#struttura{
   font-size:10px;
   width: 130px;
   height: 25px;
@@ -125,14 +123,15 @@
   border-radius: 4px;
 }
 
-/* #login{
+#login{
   font-size:10px;
-  width: 130px;
+  width: 100px;
   height: 25px;
   color:white;
+  background-color: rgba(0, 0, 0, 0);
   border:1px solid white;
   border-radius: 4px;
-} */
+}
 
 .container-header.bottom{
   background-color: lightgrey;
@@ -305,6 +304,7 @@ footer{
   left:0;
   top:50%;
   transform: translatey(-50%);
+  font-size: 1.4em;
 }
 
 .row-footer .column.two::after{
@@ -326,9 +326,13 @@ footer{
   float: left;
   position: relative;
 }
+
+.col.one{
+  font-size: 0.8em;
+  color:grey;
+}
 .row-footer .col.three{
   text-align: center;
-  margin: auto;
 }
 
 .row-footer .col.three > *{
@@ -337,4 +341,31 @@ footer{
 
 .buttons{
   width: 100%;
+}
+
+.footer-buttons{
+  width: 100%;
+}
+
+.footer-buttons button{
+  font-size:0.7em;
+  height: 35px;
+  color:white;
+  background-color: #7cbb02;
+  border:none;
+  border-radius: 4px;
+  margin-top: 7px;
+}
+
+select{
+  background-color: rgba(0,0,0,0);
+  border:none;
+  color: grey;
+  width:120px;
+  font-size: 12px;
+}
+
+.custom-select{
+  display: inline-block;
+  border-bottom: 1px solid grey;
 }
