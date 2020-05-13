@@ -85,7 +85,7 @@
   width: 100%;
   background-image: url('../img/fluentify-jumbo.png');
   background-position: 106% 100%;
-  background-size: 650px;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-color: #0c325a;
   position: relative;
@@ -113,8 +113,26 @@
   background-color: #7cbb02;
   border:none;
   border-radius: 4px;
-
 }
+
+#ul2 button{
+  font-size:10px;
+  width: 130px;
+  height: 25px;
+  color:white;
+  background-color: #7cbb02;
+  border:none;
+  border-radius: 4px;
+}
+
+/* #login{
+  font-size:10px;
+  width: 130px;
+  height: 25px;
+  color:white;
+  border:1px solid white;
+  border-radius: 4px;
+} */
 
 .container-header.bottom{
   background-color: lightgrey;
