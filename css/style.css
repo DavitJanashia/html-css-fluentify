@@ -30,6 +30,7 @@
   line-height: 70px;
   font-size: 10px;
   float: left;
+  overflow: hidden;
 }
 
 .uls > ul a{
@@ -83,8 +84,8 @@
 .container-header.middle{
   width: 100%;
   background-image: url('../img/fluentify-jumbo.png');
-  background-position: right;
-  background-size: contain;
+  background-position: 106% 100%;
+  background-size: 650px;
   background-repeat: no-repeat;
   background-color: #0c325a;
   position: relative;
@@ -231,10 +232,26 @@
   background-position: center;
 }
 
+.row.bottom.column.two span:first-child{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.row.bottom.column.two p:nth-child(2){
+  padding-top:20px;
+  font-size: 0.8em;
+  color:grey;
+}
+
+.row.bottom.column.two a:last-child{
+  padding-top:20px;
+  color: #5586bc;
+  font-size: 0.8em;
+}
+
 
 .row.column{
   float:left;
-
 }
 
 /* fine MAIN */
