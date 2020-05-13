@@ -180,10 +180,6 @@
 }
 
 
-.row.column *{
-  display: inline-block;
-}
-
 .row.column.top *{
   text-align: center;
 }
